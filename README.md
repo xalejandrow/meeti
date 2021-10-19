@@ -11,5 +11,9 @@ Sección 44: Meeti - Clon de Meetup, Crea una Comunidad y comparte tu pasión
     
         npm install --save-dev nodemon
         npm install --save express dotenv
-        
+
+    Capítulo 186. Instalando EJS y Materiales 
+    
+        npm install --save ejs
+
 
