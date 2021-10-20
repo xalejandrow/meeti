@@ -23,4 +23,11 @@ Sección 44: Meeti - Clon de Meetup, Crea una Comunidad y comparte tu pasión
          <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900|Staatliches" rel="stylesheet">
          <link rel="stylesheet" href="/css/app.css">
 
+Sección 47: Meeti . Introducción a Modelo de Usuarios y Sequelize
+
+    Capítulo 192. Configurando Sequalize
+
+        npm install --save sequalize pg
+        (se utiliza para el curso la versión "pg": "^7.9.0" y "sequelize": "^5.1.0")
+
 
