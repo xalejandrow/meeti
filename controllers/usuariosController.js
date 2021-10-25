@@ -14,14 +14,15 @@ exports.crearNuevaCuenta = async (req, res) => {
 
     // Leer los errores de express
     const erroresExpress = req.validationErrors();
-    console.log(erroresExpress);
 
     try {
-        const nuevoUsuario = await Usuarios.create(usuario);
+        await Usuarios.create(usuario);
 
-    // TODO Flash Message y redireccionar
-    console.log('Usuario creado', nuevoUsuario);
+        // Flash Message y redireccionar
+        req.flash('exito', 'Hemos enviado un E-mail, confirma tu cuenta');
+        res.redirect('/iniciar-sesion');
         
+
     } catch (error) {
         // Extraer el message de los errores
         const erroresSequelize = error.errors.map(err =>  err.message);
@@ -36,4 +37,11 @@ exports.crearNuevaCuenta = async (req, res) => {
         res.redirect('/crear-cuenta');
     }
     
+}
+
+// Formulario para iniciar sesión
+exports.formIniciarSesion = (req, res) => {
+    res.render('iniciar-sesion', {
+        nombrePagina : 'Iniciar Sesión'
+    })
 }

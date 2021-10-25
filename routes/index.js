@@ -10,6 +10,9 @@ module.exports = function() {
     router.get('/crear-cuenta', usuariosController.formCrearCenta);
     router.post('/crear-cuenta', usuariosController.crearNuevaCuenta);
 
+    // Iniciar sesión
+    router.get('/iniciar-sesion', usuariosController.formIniciarSesion);
+
 
     return router;
 }
