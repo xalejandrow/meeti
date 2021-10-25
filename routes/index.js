@@ -8,6 +8,8 @@ module.exports = function() {
     router.get('/', homeController.home);
     
     router.get('/crear-cuenta', usuariosController.formCrearCenta);
+    router.post('/crear-cuenta', usuariosController.crearNuevaCuenta);
+
 
     return router;
 }
