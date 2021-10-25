@@ -42,4 +42,8 @@ Sección 47: Meeti . Introducción a Modelo de Usuarios y Sequelize
 
         npm install --save express-validator
 
-    
+Sección 48: Meeti - Envial Email de Confirmación
+
+    Capítulo 200. Configurando Nodemailer
+
+        npm install --save nodemailer
