@@ -37,4 +37,9 @@ Sección 47: Meeti . Introducción a Modelo de Usuarios y Sequelize
     Capítulo 195. Validación de Campos y Configurando Connect Flash
 
         npm install --save connect-flash cookie-parser express-session
-        
+    
+    Capítulo 198. Configurando Connect Flash
+
+        npm install --save express-validator
+
+    
