@@ -1,7 +1,9 @@
 # Stage 1
-FROM node:14.18.1-alpine as node14_app
+# FROM node:14.18.1-alpine as node14_app
+FROM node:12.22-alpine3.11 as node14_app
 
-WORKDIR /app
+# WORKDIR /app
+WORKDIR /meeti
 #ENV PORT 5000
 COPY package.json .
 RUN npm install
