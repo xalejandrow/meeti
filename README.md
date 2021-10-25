@@ -47,3 +47,9 @@ Sección 48: Meeti - Envial Email de Confirmación
     Capítulo 200. Configurando Nodemailer
 
         npm install --save nodemailer
+
+    Capítulo 204. Configurando Passport
+
+        npm install --save passport passport-local
+
+    
