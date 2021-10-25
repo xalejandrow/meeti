@@ -8,7 +8,8 @@ passport.use(new LocalStrategy({
     },
     async(email, password, next) => {
         // código se ejecuta al llenar el formulario
-        const usuario = await Usuarios.findOne({ where : { email } });
+        const usuario = await Usuarios.findOne({ 
+            where : { email, activo : 1 } });
 
         // revisar si existe o no
         if(!usuario) return next(null, false, {
