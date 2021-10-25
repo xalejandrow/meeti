@@ -30,7 +30,11 @@ Sección 47: Meeti . Introducción a Modelo de Usuarios y Sequelize
         npm install --save sequalize pg
         (se utiliza para el curso la versión "pg": "^7.9.0" y "sequelize": "^5.1.0")
 
-    CApítulo 193. Creando el Modelo de Usuarios
+    Capítulo 193. Creando el Modelo de Usuarios
 
         npm install --save bcrypt-nodejs
+    
+    Capítulo 195. Validación de Campos y Configurando Connect Flash
+
+        npm install --save connect-flash cookie-parser express-session
         
