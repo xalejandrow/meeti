@@ -12,6 +12,7 @@ const router = require('./routes');
 const db = require('./config/db');
 
 require('./models/Usuarios');
+require('./models/Categorias');
 db.sync().then(() => console.log('DB Conectada')).catch((error) => console.log(error));
 
 // Variables de Desarrollo
