@@ -53,4 +53,9 @@ Sección 48: Meeti - Envial Email de Confirmación
         npm install --save passport passport-local
 
     
-Sección 
+Sección 51: Meeti - Creando nuevos Grupos
+
+    Capítulo 210. Creando el Modelo para los Grupos
+
+        npm install --save uuid
+
